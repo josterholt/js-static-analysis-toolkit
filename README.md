@@ -17,9 +17,15 @@ staged files. (ex. eslint, prettier)
 
 [husky](https://www.npmjs.com/package/husky) - Run commands on githooks
 
+[npm-run-all](https://www.npmjs.com/package/npm-run-all) - Runs multiple
+commands. With `---parallel`, runs commands in parallel
+
+    npm-run-all --parallel [commands]
+
 ### Commands
 
     npx eslint . --fix // Automatically fix ESLint errors npx format // Fix
+    npx format // Runs prettier against changed files
 
 formating issues
 
